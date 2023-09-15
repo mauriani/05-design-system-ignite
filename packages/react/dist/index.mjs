@@ -17,4 +17,10 @@ var colors = {
 };
 
 // src/index.tsx
-console.log(colors);
+import { jsx } from "react/jsx-runtime";
+function App() {
+  return /* @__PURE__ */ jsx("h1", { style: { color: colors.ignite300 }, children: "Hello word" });
+}
+export {
+  App
+};
