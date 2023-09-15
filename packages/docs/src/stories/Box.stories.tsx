@@ -1,16 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps } from '@ignite-ui/react'
+import { Box, BoxProps, Text } from '@ignite-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   // quando coloco aqui os demias botões vai ter o text de envia
   args: {
-    children: (
-      <>
-        <span>Testando o elemento em tela</span>
-      </>
-    ),
+    children: <Text>Testando o elemento em tela</Text>,
   },
 } as Meta
 
