@@ -30,6 +30,7 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.0.8",
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
