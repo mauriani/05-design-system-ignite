@@ -23,7 +23,7 @@ export default {
       )
     },
   ],
-} as Meta
+} as Meta<CheckBoxProps>
 
 export const Primary: StoryObj<CheckBoxProps> = {
   args: {},
