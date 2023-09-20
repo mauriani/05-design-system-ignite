@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "lint": "eslint src/**/*.ts* --fix"
+    "lint": "eslint src/**/*.ts* --fix",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "@storybook/manager-api": "^7.4.2",
     "@storybook/react": "^7.4.2",
     "@storybook/react-vite": "^7.4.2",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.2.1",
     "@vitejs/plugin-react": "^4.0.4",
     "prop-types": "^15.8.1",
